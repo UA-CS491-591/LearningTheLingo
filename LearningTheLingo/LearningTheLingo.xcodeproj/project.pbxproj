@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86E4A716191A764F001C9C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4A715191A764F001C9C24 /* Foundation.framework */; };
+		86E4A718191A764F001C9C24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4A717191A764F001C9C24 /* CoreGraphics.framework */; };
+		86E4A71A191A764F001C9C24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4A719191A764F001C9C24 /* UIKit.framework */; };
+		86E4A720191A764F001C9C24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86E4A71E191A764F001C9C24 /* InfoPlist.strings */; };
+		86E4A722191A764F001C9C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E4A721191A764F001C9C24 /* main.m */; };
+		86E4A726191A764F001C9C24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E4A725191A764F001C9C24 /* AppDelegate.m */; };
+		86E4A728191A764F001C9C24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E4A727191A764F001C9C24 /* Images.xcassets */; };
+		86E4A72F191A764F001C9C24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4A72E191A764F001C9C24 /* XCTest.framework */; };
+		86E4A730191A764F001C9C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4A715191A764F001C9C24 /* Foundation.framework */; };
+		86E4A731191A764F001C9C24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4A719191A764F001C9C24 /* UIKit.framework */; };
+		86E4A739191A764F001C9C24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86E4A737191A764F001C9C24 /* InfoPlist.strings */; };
+		86E4A73B191A764F001C9C24 /* LearningTheLingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E4A73A191A764F001C9C24 /* LearningTheLingoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86E4A732191A764F001C9C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E4A70A191A764F001C9C24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86E4A711191A764F001C9C24;
+			remoteInfo = LearningTheLingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86E4A712191A764F001C9C24 /* LearningTheLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningTheLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E4A715191A764F001C9C24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86E4A717191A764F001C9C24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86E4A719191A764F001C9C24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86E4A71D191A764F001C9C24 /* LearningTheLingo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningTheLingo-Info.plist"; sourceTree = "<group>"; };
+		86E4A71F191A764F001C9C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86E4A721191A764F001C9C24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86E4A723191A764F001C9C24 /* LearningTheLingo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningTheLingo-Prefix.pch"; sourceTree = "<group>"; };
+		86E4A724191A764F001C9C24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86E4A725191A764F001C9C24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86E4A727191A764F001C9C24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86E4A72D191A764F001C9C24 /* LearningTheLingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningTheLingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E4A72E191A764F001C9C24 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86E4A736191A764F001C9C24 /* LearningTheLingoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningTheLingoTests-Info.plist"; sourceTree = "<group>"; };
+		86E4A738191A764F001C9C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86E4A73A191A764F001C9C24 /* LearningTheLingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningTheLingoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86E4A70F191A764F001C9C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E4A718191A764F001C9C24 /* CoreGraphics.framework in Frameworks */,
+				86E4A71A191A764F001C9C24 /* UIKit.framework in Frameworks */,
+				86E4A716191A764F001C9C24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E4A72A191A764F001C9C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E4A72F191A764F001C9C24 /* XCTest.framework in Frameworks */,
+				86E4A731191A764F001C9C24 /* UIKit.framework in Frameworks */,
+				86E4A730191A764F001C9C24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86E4A709191A764F001C9C24 = {
+			isa = PBXGroup;
+			children = (
+				86E4A71B191A764F001C9C24 /* LearningTheLingo */,
+				86E4A734191A764F001C9C24 /* LearningTheLingoTests */,
+				86E4A714191A764F001C9C24 /* Frameworks */,
+				86E4A713191A764F001C9C24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86E4A713191A764F001C9C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E4A712191A764F001C9C24 /* LearningTheLingo.app */,
+				86E4A72D191A764F001C9C24 /* LearningTheLingoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86E4A714191A764F001C9C24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86E4A715191A764F001C9C24 /* Foundation.framework */,
+				86E4A717191A764F001C9C24 /* CoreGraphics.framework */,
+				86E4A719191A764F001C9C24 /* UIKit.framework */,
+				86E4A72E191A764F001C9C24 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86E4A71B191A764F001C9C24 /* LearningTheLingo */ = {
+			isa = PBXGroup;
+			children = (
+				86E4A724191A764F001C9C24 /* AppDelegate.h */,
+				86E4A725191A764F001C9C24 /* AppDelegate.m */,
+				86E4A727191A764F001C9C24 /* Images.xcassets */,
+				86E4A71C191A764F001C9C24 /* Supporting Files */,
+			);
+			path = LearningTheLingo;
+			sourceTree = "<group>";
+		};
+		86E4A71C191A764F001C9C24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86E4A71D191A764F001C9C24 /* LearningTheLingo-Info.plist */,
+				86E4A71E191A764F001C9C24 /* InfoPlist.strings */,
+				86E4A721191A764F001C9C24 /* main.m */,
+				86E4A723191A764F001C9C24 /* LearningTheLingo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86E4A734191A764F001C9C24 /* LearningTheLingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				86E4A73A191A764F001C9C24 /* LearningTheLingoTests.m */,
+				86E4A735191A764F001C9C24 /* Supporting Files */,
+			);
+			path = LearningTheLingoTests;
+			sourceTree = "<group>";
+		};
+		86E4A735191A764F001C9C24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86E4A736191A764F001C9C24 /* LearningTheLingoTests-Info.plist */,
+				86E4A737191A764F001C9C24 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86E4A711191A764F001C9C24 /* LearningTheLingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E4A73E191A764F001C9C24 /* Build configuration list for PBXNativeTarget "LearningTheLingo" */;
+			buildPhases = (
+				86E4A70E191A764F001C9C24 /* Sources */,
+				86E4A70F191A764F001C9C24 /* Frameworks */,
+				86E4A710191A764F001C9C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningTheLingo;
+			productName = LearningTheLingo;
+			productReference = 86E4A712191A764F001C9C24 /* LearningTheLingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86E4A72C191A764F001C9C24 /* LearningTheLingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E4A741191A764F001C9C24 /* Build configuration list for PBXNativeTarget "LearningTheLingoTests" */;
+			buildPhases = (
+				86E4A729191A764F001C9C24 /* Sources */,
+				86E4A72A191A764F001C9C24 /* Frameworks */,
+				86E4A72B191A764F001C9C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86E4A733191A764F001C9C24 /* PBXTargetDependency */,
+			);
+			name = LearningTheLingoTests;
+			productName = LearningTheLingoTests;
+			productReference = 86E4A72D191A764F001C9C24 /* LearningTheLingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E4A70A191A764F001C9C24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MattIsTheGreatest;
+				TargetAttributes = {
+					86E4A72C191A764F001C9C24 = {
+						TestTargetID = 86E4A711191A764F001C9C24;
+					};
+				};
+			};
+			buildConfigurationList = 86E4A70D191A764F001C9C24 /* Build configuration list for PBXProject "LearningTheLingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86E4A709191A764F001C9C24;
+			productRefGroup = 86E4A713191A764F001C9C24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86E4A711191A764F001C9C24 /* LearningTheLingo */,
+				86E4A72C191A764F001C9C24 /* LearningTheLingoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86E4A710191A764F001C9C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E4A720191A764F001C9C24 /* InfoPlist.strings in Resources */,
+				86E4A728191A764F001C9C24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E4A72B191A764F001C9C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E4A739191A764F001C9C24 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86E4A70E191A764F001C9C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E4A726191A764F001C9C24 /* AppDelegate.m in Sources */,
+				86E4A722191A764F001C9C24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E4A729191A764F001C9C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E4A73B191A764F001C9C24 /* LearningTheLingoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86E4A733191A764F001C9C24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86E4A711191A764F001C9C24 /* LearningTheLingo */;
+			targetProxy = 86E4A732191A764F001C9C24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86E4A71E191A764F001C9C24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E4A71F191A764F001C9C24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86E4A737191A764F001C9C24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E4A738191A764F001C9C24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E4A73C191A764F001C9C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86E4A73D191A764F001C9C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86E4A73F191A764F001C9C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningTheLingo/LearningTheLingo-Prefix.pch";
+				INFOPLIST_FILE = "LearningTheLingo/LearningTheLingo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86E4A740191A764F001C9C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningTheLingo/LearningTheLingo-Prefix.pch";
+				INFOPLIST_FILE = "LearningTheLingo/LearningTheLingo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		86E4A742191A764F001C9C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningTheLingo.app/LearningTheLingo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningTheLingo/LearningTheLingo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LearningTheLingoTests/LearningTheLingoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86E4A743191A764F001C9C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningTheLingo.app/LearningTheLingo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningTheLingo/LearningTheLingo-Prefix.pch";
+				INFOPLIST_FILE = "LearningTheLingoTests/LearningTheLingoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86E4A70D191A764F001C9C24 /* Build configuration list for PBXProject "LearningTheLingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E4A73C191A764F001C9C24 /* Debug */,
+				86E4A73D191A764F001C9C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E4A73E191A764F001C9C24 /* Build configuration list for PBXNativeTarget "LearningTheLingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E4A73F191A764F001C9C24 /* Debug */,
+				86E4A740191A764F001C9C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86E4A741191A764F001C9C24 /* Build configuration list for PBXNativeTarget "LearningTheLingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E4A742191A764F001C9C24 /* Debug */,
+				86E4A743191A764F001C9C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86E4A70A191A764F001C9C24 /* Project object */;
+}
