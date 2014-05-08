@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "House.h"
 
 @implementation AppDelegate
 
@@ -17,9 +18,32 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    //This is a comment
+    
+    //Call method in same class (see below)
+    //"self" essentially means "this object"
+    [self workWithHouse];
     
     return YES;
+}
+
+-(void)workWithHouse{
+    //Creating a custom object
+    House *myHouse;
+    myHouse = [[House alloc] init]; //Initializing it
+    myHouse.Name = @"Matt's House"; //Setting property values
+    myHouse.houseHeight = 123; //Setting primitive property values
+    
+    //Calling an instance method with one parameter
+    [myHouse addStories:3];
+    
+    //Calling am instance method with multiple input parameters
+    [myHouse addStories:2 speedily:YES];
+    
+    //Calling a method that returns a value
+    int houseHeight = [myHouse houseHeight];
+    
+    //Calling a class method. These do not require an instance of a class
+    myHouse.houseHeight = [House defaultHouseHeight];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

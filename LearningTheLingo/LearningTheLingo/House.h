@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TestObject : NSObject
+@interface House : NSObject {
+    
+}
 
+@property NSString *Name;
+@property int houseHeight;
+
+//Instance methods
+-(void)addStories:(int)numberOfStories;
+-(void)addStories:(int)numberOfStories speedily:(BOOL)b;
+
+//Class methods
++(int)defaultHouseHeight;
 @end

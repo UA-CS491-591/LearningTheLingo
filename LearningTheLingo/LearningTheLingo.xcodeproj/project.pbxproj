@@ -19,6 +19,7 @@
 		86E4A731191A764F001C9C24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4A719191A764F001C9C24 /* UIKit.framework */; };
 		86E4A739191A764F001C9C24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86E4A737191A764F001C9C24 /* InfoPlist.strings */; };
 		86E4A73B191A764F001C9C24 /* LearningTheLingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E4A73A191A764F001C9C24 /* LearningTheLingoTests.m */; };
+		86E4A746191A7764001C9C24 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E4A745191A7764001C9C24 /* House.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		86E4A736191A764F001C9C24 /* LearningTheLingoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningTheLingoTests-Info.plist"; sourceTree = "<group>"; };
 		86E4A738191A764F001C9C24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86E4A73A191A764F001C9C24 /* LearningTheLingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningTheLingoTests.m; sourceTree = "<group>"; };
+		86E4A744191A7764001C9C24 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		86E4A745191A7764001C9C24 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				86E4A725191A764F001C9C24 /* AppDelegate.m */,
 				86E4A727191A764F001C9C24 /* Images.xcassets */,
 				86E4A71C191A764F001C9C24 /* Supporting Files */,
+				86E4A744191A7764001C9C24 /* House.h */,
+				86E4A745191A7764001C9C24 /* House.m */,
 			);
 			path = LearningTheLingo;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86E4A726191A764F001C9C24 /* AppDelegate.m in Sources */,
+				86E4A746191A7764001C9C24 /* House.m in Sources */,
 				86E4A722191A764F001C9C24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +443,7 @@
 				86E4A740191A764F001C9C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86E4A741191A764F001C9C24 /* Build configuration list for PBXNativeTarget "LearningTheLingoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				86E4A743191A764F001C9C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
