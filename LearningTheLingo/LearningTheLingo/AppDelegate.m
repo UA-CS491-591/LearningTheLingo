@@ -50,8 +50,10 @@
     //Define a date formatter for printing out specific time zones/locales/etc.
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"CDT"]];
+    [formatter setDateStyle:NSDateFormatterLongStyle]; //use date style
+    [formatter setDateFormat:@"yyyy MM dd, hh:mm:ss a"]; //Use date format
+    // For more date formatting options, see here: http://cldr.unicode.org/translation/date-time
     
-    NSString *asdf = [formatter stringFromDate:date];
     NSLog(@"%@", [formatter stringFromDate:date]);
     
     
