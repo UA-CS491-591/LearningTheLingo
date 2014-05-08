@@ -18,6 +18,46 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    //String building
+    NSString *myBasicString = @"Basic String";
+    NSString *myIntString = [[NSString alloc] initWithFormat:@"%d", 123];
+    NSString *myFloatString = [[NSString alloc] initWithFormat:@"%f", 123.123];
+    NSString *myStringString = [[NSString alloc] initWithFormat:@"%@%@ - %d", @"First String", @"Second", 123];
+    NSLog(@"%@", myStringString);
+    
+    //NSArray long-hand
+    NSNumber *number = [[NSNumber alloc] initWithInt:32];
+    NSArray *myArray = [[NSArray alloc] initWithObjects:@"First Object", number, nil];
+    myArray = @[@"New Array First Object", @"New Array Second"]; //Short-hand
+    myStringString = [myArray objectAtIndex:0]; //Get me the first object
+    myStringString = myArray[0]; //Shorthand for "get me first object"
+    
+    NSMutableArray *mutableArray = [[NSMutableArray alloc] initWithArray:myArray];
+    [mutableArray addObject:@"Added Object"];
+    [mutableArray removeObjectAtIndex:0]; //Remove first item in array
+    [mutableArray insertObject:@"Inserted object" atIndex:1];
+    
+    //NSNumber
+    NSNumber *myNumber = [[NSNumber alloc] initWithBool:YES];
+    NSLog(@"%d", myNumber.intValue);
+    NSLog(@"%f", myNumber.floatValue);
+    NSLog(@"%d", myNumber.boolValue);
+    
+    //NSDate
+    NSDate *date = [NSDate date]; //Gets the current time
+    NSLog(@"%@", date);
+    
+    //Define a date formatter for printing out specific time zones/locales/etc.
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"CDT"]];
+    
+    NSString *asdf = [formatter stringFromDate:date];
+    NSLog(@"%@", [formatter stringFromDate:date]);
+    
+    
+    //NSDictionary
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] initWithObjects:@[myNumber] forKeys:@[@"First Key"]];
+    [dictionary setValue:@"Second Object" forKey:@"First Key"];
     
     //Call method in same class (see below)
     //"self" essentially means "this object"
