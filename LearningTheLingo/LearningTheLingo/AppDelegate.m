@@ -60,6 +60,8 @@
     //NSDictionary
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] initWithObjects:@[myNumber] forKeys:@[@"First Key"]];
     [dictionary setValue:@"Second Object" forKey:@"First Key"];
+    NSString *dictionaryValue = [dictionary valueForKey:@"First Key"]; //Accessing values in dictionaries
+    dictionaryValue = dictionary[@"First Key"]; //Short-hand Accessing values in dictionaries
     
     //Call method in same class (see below)
     //"self" essentially means "this object"
